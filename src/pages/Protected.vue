@@ -1,12 +1,12 @@
 <template>
   <Container>
-    <h1><span class="accent">Members</span> only</h1>
+    <h1><span class="accent">Members</span> profile</h1>
     <div>
       <button>
         <router-link :to="{ name: 'Home' }">Go Home</router-link>
       </button>
     </div>
-    <h3 v-if="user">You can be here because you are {{ user.displayName }}</h3>
+    <h3 v-if="user">Hello, {{ user.displayName }}</h3>
   </Container>
 </template>
 

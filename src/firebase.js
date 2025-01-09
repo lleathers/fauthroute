@@ -6,6 +6,8 @@ import config from './config';
 
 function initialize(existingApp) {
   const firebaseApp = existingApp || initializeApp(config);
+//  const firebaseApp = initializeApp(default);
+//  const firebaseApp = existingApp;
   const auth = getAuth(firebaseApp);
   const firestore = getFirestore(firebaseApp);
   const storage = getStorage(firebaseApp);

@@ -1,6 +1,6 @@
 <template>
   <Container>
-    <h1>VueFire <span class="accent">Authentication</span></h1>
+    <h1>NeighborPays <span class="accent">login</span></h1>
     <div>
       <button v-if="!user" @click="signInWithRedirect(auth, new GoogleAuthProvider())">Sign In</button>
       <button v-if="user" @click="signOut(auth)">Sign Out</button>

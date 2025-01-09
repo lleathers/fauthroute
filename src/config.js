@@ -1,6 +1,6 @@
 export default {
   apiKey: "AIzaSyC1OtTAblIfFQaafmrjFRnNdw62cZwj4ic",
-  authDomain: "localhost:5003",
+  authDomain: "vuedowne.firebaseapp.com",
   projectId: "vuedowne",
   storageBucket: "vuedowne.firebasestorage.app",
   messagingSenderId: "890672733251",

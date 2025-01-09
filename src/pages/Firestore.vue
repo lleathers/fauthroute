@@ -1,6 +1,6 @@
 <template>
   <Container>
-    <h1>Commuter Club <span class="accent">Welcome</span></h1>
+    <h1>NeighborPays <span class="accent">Welcome!</span></h1>
     <router-link :to="{ name: 'Home' }">Go to Home</router-link>
     <h3>Filter by</h3>
     <div class="gap-8 button-list" v-if="lookup">
